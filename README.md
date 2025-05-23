@@ -1,18 +1,11 @@
-# 프로그래머스 웹 프로그래밍
+# 프로그래머스 웹 프로그래밍 - 프론트엔드 5기
+
+##프로그래머스 데브코스에 학습한 내용 정리 / 업로드
 
 ---
 
-`CLI`와 `GUI`를 사용하여 `Git`을 학습합니다.
+- Part 1: HTML 기본 구조 ([링크][1])
+- Part 2: CSS 기본 구조 ([링크][2])
 
-- Git 초기화:
-
-```bash
-git init
-```
-
-- [ ] 항목 1
-- [x] 항목 2
-
-git을 배워보니 정말 [git][1]똥차네요
-
-[1]: https://github.com/eafiseemn/learn-html
+[1]: https://github.com/eafiseemn/learn-html/tree/main/part1
+[2]: https://github.com/eafiseemn/learn-html/tree/main/part2
