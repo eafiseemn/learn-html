@@ -1,0 +1,40 @@
+#container {
+	display: flex;
+	flex-direction: row;
+}
+
+p {
+	background-color: hotpink;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+#box-id {
+	background-color: dodgerblue;
+}
+
+.box-class {
+	background-color: orange;
+}
+
+.box-class2 {
+	background-color: greenyellow;
+}
+
+p[name="tiger"] {
+	background-color: cyan;
+}
+
+a[href="#"] {
+	color: pink;
+}
+
+#box-id:focus {
+	background-color: aquamarine;
+	transform: translateX(10px) rotate(10deg);
+	transition: all 1s ease;
+}
+p:nth-child(3) {
+	background-color: red;
+}
