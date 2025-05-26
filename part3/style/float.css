@@ -1,0 +1,29 @@
+.container {
+	background-color: hotpink;
+	/* overflow: hidden; */
+}
+
+.container > div {
+	width: 200px;
+	height: 200px;
+}
+
+.container .box01 {
+	background-color: dodgerblue;
+	float: left;
+}
+
+.container .box02 {
+	background-color: orange;
+	float: left;
+	/* margin-top: 10px; */
+}
+
+.container .box03 {
+	background-color: greenyellow;
+	float: left;
+}
+
+p {
+	clear: both;
+}

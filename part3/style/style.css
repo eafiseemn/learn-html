@@ -1,0 +1,73 @@
+/* Inheritance & Layout */
+/* .container {
+	background-color: hotpink;
+	height: 200px;
+}
+
+.box01 {
+	width: 200px;
+	height: 200px;
+	background-color: dodgerblue;
+}
+
+.box02 {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+
+.another {
+	width: 400px;
+	height: 600px;
+	background-color: black;
+}
+ */
+
+/* Selector */
+.list {
+	background-color: hotpink;
+}
+
+/* list 안에 있는 li들에게만 */
+.list li {
+	background-color: dodgerblue;
+}
+
+/* list 안에 있는 모든 menu만 */
+.list .menu {
+	background-color: orange;
+}
+
+/* list 안에 있는 친자식 menu에게만 */
+.list > .menu {
+	background-color: skyblue;
+}
+
+/* n-th child만 */
+
+/* .list 안에 있는 모든 first child에 적용 */
+.list li:first-child {
+	background-color: red;
+}
+
+.list > li:nth-child(3) {
+	background-color: greenyellow;
+}
+
+/* .list 안에 있는 친자식 last child에만 적용 */
+.list > li:last-child {
+	background-color: deepskyblue;
+}
+
+/* CSS Nesting 
+.list {
+
+    > .menu {
+
+    }
+
+    li:nth-child(2) {
+
+    }
+}
+*/
