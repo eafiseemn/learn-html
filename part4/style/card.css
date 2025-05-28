@@ -8,6 +8,14 @@ body {
 
 	background-color: #f2f2f2;
 }
+
+button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
 .card {
 	display: flex;
 	width: 261px;
@@ -18,20 +26,23 @@ body {
 
 	border-radius: 8px;
 	background: #fff;
+	box-sizing: border-box;
 }
 
 .card_inner {
-	display: flex;
 	padding: 12px 12px 60px 12px;
+	border-radius: 8px 8px 0px 0px;
+	background: #fdf4e5;
+	box-sizing: border-box;
+
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 27px;
+
 	align-self: stretch;
 	position: relative;
-
-	border-radius: 8px 8px 0px 0px;
-	background: #fdf4e5;
 }
 
 .inner_salary {
@@ -67,8 +78,12 @@ body {
 
 .goto_btn {
 	position: absolute;
-	top: 80px;
+	/* top: 80px; */
 	right: 6px;
+
+	/* 항상 카드 가운데 위치하도록 정렬 */
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .navigator {
@@ -107,9 +122,6 @@ body {
 
 .view_btn {
 	background-color: black;
-	border: 0;
-	border-radius: 15px;
-	cursor: pointer;
 
 	display: flex;
 	justify-content: center;
@@ -117,7 +129,7 @@ body {
 	padding: 4px 8px;
 
 	color: #fff;
-	font-family: Inter;
+	/* font-family: Inter; */
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
